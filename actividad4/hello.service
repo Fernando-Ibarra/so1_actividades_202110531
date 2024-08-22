@@ -1,0 +1,11 @@
+[Unit]
+Description=Hello and Date Service
+After=network.target
+
+[Service]
+ExecStart=/home/fernando/Documentos/University/so1_actividades_202110531/actividad4/hello.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
